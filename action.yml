@@ -23,7 +23,7 @@ inputs:
 
 outputs:
   bake-file:
-    description: Bake definiton file
+    description: Bake definition file
     value: ${{ steps.meta.outputs.bake-file }}
 
 runs:
