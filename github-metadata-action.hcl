@@ -103,6 +103,6 @@ target "github-metadata-action" {
         "id=GITHUB_OUTPUT,type=file,src=${GITHUB_OUTPUT}",
         # "id=GITHUB_PATH,type=file,src=${GITHUB_PATH}",
         # "id=GITHUB_STEP_SUMMARY,type=file,src=${GITHUB_STEP_SUMMARY}",
-        "id=GITHUB_TOKEN,env=${GITHUB_METADATA_ACTION_GITHUB_TOKEN}",
+        "id=GITHUB_TOKEN,env=GITHUB_METADATA_ACTION_GITHUB_TOKEN",
     ]
 }
